@@ -299,15 +299,15 @@
             submitMSG(true, "Message Sent!")
         }
     	  function formError(){   
-    	    $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+    	    $("#contactForm").removeClass().addClass('shake animated single-form quate-form').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
     	        $(this).removeClass();
     	    });
     	  }
         function submitMSG(valid, msg){
           if(valid){
-            var msgClasses = "h3 text-center fadeInUp animated text-success";
+            var msgClasses = "h4 text-center fadeInUp animated text-success pt-3";
           } else {
-            var msgClasses = "h3 text-center shake animated text-danger";
+            var msgClasses = "h4 text-center shake animated text-danger pt-3";
           }
           $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
         }
