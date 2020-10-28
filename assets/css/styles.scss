@@ -108,7 +108,7 @@ body {
             margin: 6px 15px;
             &.active {
                 a {
-                    color: $main-color;
+                    color: #F45157;
                     &.nav-link {
                         &.btn {
                             color: #141647;
@@ -142,7 +142,7 @@ body {
                 }
                 
                 &:hover {
-                    color: $main-color;
+                    color: #F45157;
                 }
             }
         }
@@ -1579,5 +1579,14 @@ span.title-bg {
                 height: 60px;
             }
         }
+    }
+}
+
+
+.subpage-hero .lo_content_inner {
+    padding-right: 0;
+    h2{
+        font-size: 55px;
+        line-height: 60px;
     }
 }
