@@ -450,7 +450,6 @@
   }
   .mh-header {
     padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.4);
   }
   .navbar-toggler {
     background-color: #fff;
@@ -607,7 +606,7 @@
     margin-bottom: 20px;
   }
   .mh-header {
-    background-color: #212529;
+    background-color: #fff;
   }
   .mh-feature-one p {
     padding-right: 0;
@@ -961,9 +960,16 @@
   .copyright-row .cd {
     text-align: left;
   }
+  .mh-header {
+    background-color: #fff;
+  }
 }
 
 @media only screen and (max-width: 575px) {
+  .lo_content_inner .main_heading {
+    font-size: 30px;
+    line-height: 48px;
+  }
   .xs-column-reverse {
     display: -webkit-box;
     display: -ms-flexbox;
