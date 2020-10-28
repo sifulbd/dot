@@ -105,6 +105,9 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .dt-circle {
+    display: none;
+  }
   .sub-mb-2 {
     margin-top: 40px;
   }

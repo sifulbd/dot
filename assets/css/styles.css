@@ -958,7 +958,7 @@ a:hover {
 }
 
 .mh-header .navbar-nav li.active a {
-  color: #0091FF;
+  color: #F45157;
 }
 
 .mh-header .navbar-nav li.active a.nav-link.btn {
@@ -991,7 +991,7 @@ a:hover {
 }
 
 .mh-header .navbar-nav li a:hover {
-  color: #0091FF;
+  color: #F45157;
 }
 
 .dot-services .ev-button {
@@ -2563,5 +2563,14 @@ span.title-bg {
 
 .ft-ca ul li img {
   height: 60px;
+}
+
+.subpage-hero .lo_content_inner {
+  padding-right: 0;
+}
+
+.subpage-hero .lo_content_inner h2 {
+  font-size: 55px;
+  line-height: 60px;
 }
 /*# sourceMappingURL=styles.css.map */
