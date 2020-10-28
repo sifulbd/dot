@@ -96,7 +96,7 @@ body {
   overflow-x: hidden !important;
   text-align: left;
   position: relative;
-  color: #000;
+  color: #121a4bb3;
   opacity: 1;
 }
 
@@ -844,6 +844,7 @@ button:focus {
  */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  color: #121A4B;
 }
 
 h2 {
@@ -991,6 +992,10 @@ a:hover {
 
 .mh-header .navbar-nav li a:hover {
   color: #0091FF;
+}
+
+.dot-services .ev-button {
+  margin-top: 60px;
 }
 
 .mh-header-bg {
